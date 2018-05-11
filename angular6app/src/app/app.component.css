@@ -1,0 +1,14 @@
+
+.sa-titulo{ 
+    color: rgba(189, 118, 60, 0.2);
+    background-color: brown;
+    border-style: solid;
+    border-color: rgba(0,42,199,0.6);
+}
+
+.sa-subtitulo{ 
+    color: papayawhip(189, 118, 60, 0.2);
+    background-color: olive;
+    border-style: solid;
+    border-color: mediumspringgreen(0,42,199,0.6);
+}
