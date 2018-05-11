@@ -7,7 +7,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] // Estilos
 })
 export class AppComponent {
-  nombre = 'Lenin';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*   nombre = 'Lenin';
   apellido = 'Montalvo';
   edad=90;
   sueldo=10000034645;
@@ -32,7 +55,7 @@ export class AppComponent {
 
     this.nombreClase = valorInput;
 
-  }
+  } */
 
 
 }
