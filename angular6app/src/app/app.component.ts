@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root', //Selector o etiqueta donde se va a cargar el componente
-  templateUrl: './app.component.html', //Estructura 
-  styleUrls: ['./app.component.css'] //Estilos
+  selector: 'app-root', // Selector o etiqueta donde se va a cargar el componente
+  templateUrl: './app.component.html', // Estructura 
+  styleUrls: ['./app.component.css'] // Estilos
 })
 export class AppComponent {
   nombre = 'Lenin';
