@@ -1,16 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {FormsModule} from "@angular/forms";
 
-@NgModule({//ste es un modulo
-  declarations: [ //
-    AppComponent //Al menos debe de haber un componente.
-  ],// Se definen todos los componentes a usarse
+@NgModule({
+  declarations: [
+    AppComponent
+  ], // Definir todos los componentes a usarse
+     // Definin todos los pipes -> transforman datos
   imports: [
-    BrowserModule
-  ],//Se definen todos los módulos
-  providers: [], // Se definen los servicios. 
+    BrowserModule,
+    FormsModule
+  ], //  Definimos todos los Modulos
+  providers: [], // Los Servicios
   bootstrap: [AppComponent] // Componente Principal
 })
-export class AppModule { }
+// @ALGO() // Decorator
+
+
+export class AppModule {
+}
